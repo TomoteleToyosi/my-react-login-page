@@ -15,7 +15,7 @@ const Login = (props) => {
         <button type="submit">
           {props.IsRegistered ? "Login" : "Register"}
           <Input type="text" placeholder="Username" />
-          <Input type="text" placeholder="Username" />
+          {/* <Input type="text" placeholder="Username" /> */}
         </button>
       </form>
     </div>
